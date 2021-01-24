@@ -1,0 +1,56 @@
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.textarea-container {
+    height: 200vh;
+    width: 99.6vw;
+    background-color: rgb(29, 29, 29);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tech {
+    height: 25%;
+    width: 85%;
+    margin: 30px;
+
+}
+
+.tech h1 {
+    color: white;
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    height: 90%;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid rgb(47, 47, 47);
+    padding: 10px;
+    font-size: 15pt;
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(179, 179, 179);
+
+}
+
+
+
+

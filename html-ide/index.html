@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <p id = 'op' style="color: black; background-color: white; font-size: 20pt; width: 100vw;"></p>
+    <div class="mode-container">
+        <img alt = 'Block mode' onclick = 'mode(event)' class = 'active' src="img/block.svg">
+        <img alt = 'Line mode' onclick = 'mode(event)' src="img/list.svg">
+    </div>
+    <div class="textarea-container">
+        <div class="html tech">
+            <h1 class="special"> </html> </h1>
+            <textarea class="text-html text"></textarea>
+        </div>
+
+        <div class="css tech">
+            <h1>.CSS</h1>
+            <textarea class="text-css text"></textarea>
+        </div>
+
+        <div class = 'javascript tech'>
+            <h1>JAVASCRIPT; <img onclick="scriptAlert()" class="question-icon" src="img/question.svg" alt=""></h1>
+            <textarea class="text-javascript text"></textarea>
+        </div>
+    </div>
+    <button class = 'save-bttn' onclick="save()">SALVAR</button>
+
+
+    <div class="user-screen"></div>
+
+    <script src="script.js"></script>
+
+    <script id = 'script'></script>
+</body>
+</html>
